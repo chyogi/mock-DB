@@ -9,35 +9,35 @@
 
     {
       "id": 2,
-      "firstName": "caroline",
-      "lastName": "samson",
+      "firstName": "Caroline",
+      "lastName": "Samson",
       "email": "samsonc01@yahoo.com"
     },
 
     {
       "id": 3,
-      "firstName": "riyana ",
-      "lastName": "hawkins",
+      "firstName": "Riyana ",
+      "lastName": "Hawkins",
       "email": "rhawkin@yahoo.com"
     },
 
     {
       "id": 3,
-      "firstName": "daniaya ",
-      "lastName": "trudu",
+      "firstName": "Daniaya ",
+      "lastName": "Trudou",
       "email": "daniyams11@yahoo.com"
     },
 
     {
       "id": 4,
-      "firstName": "tania ",
-      "lastName": "kackson",
+      "firstName": "Tania ",
+      "lastName": "Jackson",
       "email": "tjackson@yahoo.com"
     },
     {
       "id": 5,
-      "firstName": "shiyam ",
-      "lastName": "nene",
+      "firstName": "Shiyam ",
+      "lastName": "Nene",
       "email": "shiyamnene@yahoo.com"
     }
   ],
@@ -45,16 +45,16 @@
   "customFloorPlan": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 2,
       "name": "",
       "Type": "single family",
       "stories": 2,
-      "sqFt": 2500,
+      "sqFt": 2700,
       "bedrooms": 4,
       "fullBaths": 3,
       "halfBaths": 1,
       "garage": 2,
-      "price": 400000
+      "price": 600000
     },
 
     {
@@ -63,21 +63,21 @@
       "name": "",
       "Type": "single family",
       "stories": 2,
-      "sqFt": 3500,
+      "sqFt": 2700,
       "bedrooms": 5,
       "fullBaths": 3,
       "halfBaths": 1,
       "garage": 2,
-      "price": 600000
+      "price": 650000
     },
 
     {
       "id": 3,
-      "userId": 3,
+      "userId": 1,
       "name": "",
       "Type": "single family",
       "stories": 2,
-      "sqFt": 1500,
+      "sqFt": 1800,
       "bedrooms": 2,
       "fullBaths": 2,
       "halfBaths": 1,
@@ -86,16 +86,16 @@
     },
     {
       "id": 4,
-      "userId": 4,
+      "userId": 5,
       "name": "",
       "Type": "single family",
       "stories": 2,
-      "sqFt": 2000,
+      "sqFt": 2100,
       "bedrooms": 3,
       "fullBaths": 2,
       "halfBaths": 1,
-      "garage": 2,
-      "price": 350000
+      "garage": 1,
+      "price": 390000
     },
     {
       "id": 5,
@@ -108,22 +108,61 @@
       "fullBaths": 3,
       "halfBaths": 2,
       "garage": 3,
-      "price": 500000
+      "price": 650000
     }
   ],
 
   "savedFloorPlans": [
-    { "id": 1, "userId": 1, "readyToGoFloorPlanId": 2 },
-    { "id": 2, "userId": 3, "readyToGoFloorPlanId": 1 },
-    { "id": 2, "userId": 3, "readyToGoFloorPlanId": 1 }
+    { 
+      "id": 1, 
+    "userId": 2,
+    "readyToGoFloorPlanId": 3
+     
+   },
+    {
+      "id": 2,
+      "userId": 1,
+      "readyToGoFloorPlanId": 3
+    },
+     {
+       "id": 3,
+       "userId": 2,
+       "readyToGoFloorPlanId": 4
+     },
+      {
+        "id": 4,
+        "userId": 5,
+        "readyToGoFloorPlanId": 1
+      }
+
   ],
 
   "FloorPlanImages": [
     {
       "id": 1,
-      "readyToGoFloorPlans": 2,
+      "readyToGoFloorPlans": 1,
       "imageUrl": ""
-    }
+    },
+     {
+       "id": 2,
+       "readyToGoFloorPlans": 2,
+       "imageUrl": ""
+     },
+      {
+        "id": 3,
+        "readyToGoFloorPlans": 3,
+        "imageUrl": ""
+      },
+       {
+         "id": 4,
+         "readyToGoFloorPlans": 4,
+         "imageUrl": ""
+       },
+        {
+          "id": 5,
+          "readyToGoFloorPlans": 5,
+          "imageUrl": ""
+        }
   ],
 
   "contactUs": [
@@ -139,25 +178,112 @@
 
   "readyToGoFloorPlans": [
     {
+      "id": 1,
+      "name": "",
+      "Type": "single family",
+      "stories": 2,
+      "sqFt": 2500,
+      "bedrooms": 4,
+      "fullBaths": 3,
+      "halfBaths": 1,
+      "garage": 3,
+      "price": 550000
+    },
+    {
+      "id": 2,
+      "name": "",
+      "Type": "single family",
+      "stories": 2,
+      "sqFt": 2000,
+      "bedrooms": 2,
+      "fullBaths": 2,
+      "halfBaths": 2,
+      "garage": 1,
+      "price": 450000
+    },
+    {
       "id": 3,
       "name": "",
       "Type": "single family",
       "stories": 2,
-      "sqFt": 1800,
-      "bedrooms": 2,
+      "sqFt": 2500,
+      "bedrooms": 4,
       "fullBaths": 2,
-      "halfBaths": 1,
-      "garage": 1,
-      "price": 600000
+      "halfBaths": 2,
+      "garage": 2,
+      "price": 550000
+    },
+    {
+      "id": 4,
+      "name": "",
+      "Type": "single family",
+      "stories": 2,
+      "sqFt": 2200,
+      "bedrooms": 3,
+      "fullBaths": 2,
+      "halfBaths": 2,
+      "garage": 2,
+      "price": 525000
+    },
+    {
+      "id": 5,
+      "name": "",
+      "Type": "single family",
+      "stories": 2,
+      "sqFt": 2600,
+      "bedrooms": 5,
+      "fullBaths": 2,
+      "halfBaths": 2,
+      "garage": 2,
+      "price": 570000
+    },
+    {
+      "id": 6,
+      "name": "",
+      "Type": "single family",
+      "stories": 2,
+      "sqFt": 3000,
+      "bedrooms": 5,
+      "fullBaths": 3,
+      "halfBaths": 2,
+      "garage": 2,
+      "price": 650000
     }
   ],
 
   "reviews": [
     {
-      "id": 2,
+      "id": 1,
       "userId": 3,
       "readyToGoFloorPlanId": 1,
       "review": ""
-    }
+    },
+
+     {
+      "id": 2,
+      "userId": 1,
+      "readyToGoFloorPlanId": 3,
+      "review": ""
+    },
+     {
+      "id": 3,
+      "userId": 3,
+      "readyToGoFloorPlanId": 2,
+      "review": ""
+    },
+
+     {
+      "id": 4,
+      "userId": 3,
+      "readyToGoFloorPlanId": 3,
+      "review": ""
+    },
+
+     {
+      "id": 5,
+      "userId": 1,
+      "readyToGoFloorPlanId": 5,
+      "review": ""
+     }
   ]
 }

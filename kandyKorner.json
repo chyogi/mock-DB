@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Ron",
+      "email": "roncp123@cornell.edu",
+      "isStaff": false
+    },
+
+    {
+      "id": 2,
+      "fullName": "Raina",
+      "email": "rainarr23@madison.edu",
+      "isStaff": true
+    },
+
+    {
+      "id": 3,
+      "fullName": "Shaan",
+      "email": "shaan3@campbell.edu",
+      "isStaff": false
+    },
+
+    {
+      "id": 4,
+      "fullName": "Eva",
+      "email": "evac1233@campbell.edu",
+      "isStaff": true
+    },
+
+    {
+      "id": 5,
+      "fullName": "matt",
+      "email": "Matt55@woodmont.edu",
+      "isStaff": false
+    },
+
+    {
+      "id": 6,
+      "fullName": "charu",
+      "email": "charu22@nordstall.edu",
+      "isStaff": false
+    },
+
+    {
+      "id": 7,
+      "fullName": "rima",
+      "email": "rima22@campbell.edu",
+      "isStaff": true
+    },
+
+    {
+      "id": 8,
+      "fullName": "shelley",
+      "email": "shelly12@colder.edu",
+      "isStaff": true
+    }
+  ],
+
+  "customers": [
+    {
+      "id": 4,
+      "userId": 1,
+      "LoyaltyNumber": 2323
+    },
+
+    {
+      "id": 2,
+      "userId": 3,
+      "LoyaltyNumber": 2423
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "LoyaltyNumber": 2524
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "LoyaltyNumber": 2623
+    }
+  ],
+
+  "employees": [
+    {
+      "id": 1,
+      "userId": 3,
+      "startDate": 2015,
+      "locationId": 2,
+      "payRate": 20
+    },
+    {
+      "id": 2,
+      "userId": 7,
+      "startDate": 2016,
+      "locationId": 2,
+      "payRate": 23
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "startDate": 2017,
+      "locationId": 2,
+      "payRate": 25
+    },
+
+    {
+      "id": 4,
+      "userId": 8,
+      "startDate": 2018,
+      "locationId": 2,
+      "payRate": 25
+    }
+  ],
+
+  "location": [
+    {
+      "id": 1,
+      "address": "brentwood",
+      "square": 900,
+      "placeId": 11
+    },
+    {
+      "id": 2,
+      "address": "Nashville",
+      "square": 1200,
+      "placeId": 15
+    },
+
+    {
+      "id": 3,
+      "address": "mt. juliet",
+      "square": 1200,
+      "placeId": 19
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "productTypeId": 2,
+      "name": "Kitkat",
+      "price": 1.2,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productTypeId": 3,
+      "name": "lifesavers",
+      "price": 1.75,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productTypeId": 1,
+      "name": "Gummies",
+      "price": 3.4,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "productTypeId": 4,
+      "name": "pepsi",
+      "price": 2.8,
+      "locationId": 4
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Gummies"
+    },
+    {
+      "id": 2,
+      "name": "chocolate"
+    },
+    {
+      "id": 3,
+      "name": "hardcandy"
+    },
+    {
+      "id": 4,
+      "name": "sodas"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customer": 2323,
+      "kitkatBought": 4,
+      "gummiesBought": 0,
+      "lifesavers": 0,
+      "pepsibought": 1
+    },
+    {
+      "id": 2,
+      "customer": 2423,
+      "kitkatBought": 1,
+      "gummiesBought": 2,
+      "lifesaver": 0,
+      "pepsibought": 0
+    },
+    {
+      "id": 3,
+      "customer": 2524,
+      "kitkatBought": 0,
+      "gummiesBought": 2,
+      "pepsibought": 2
+    },
+    {
+      "id": 4,
+      "customer": 2623,
+      "kitkatBought": 1,
+      "gummiesBought": 2,
+      "pepsibought": 0
+    }
+  ]
+}

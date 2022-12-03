@@ -1,0 +1,10 @@
+{
+  "scorecards": [
+    {
+      "id": 1,
+      "dogsVotes": 5,
+      "catsVotes": 7
+    }
+  ],
+  "winners": []
+}

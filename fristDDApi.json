@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "Ryder42@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "email": "Janet50@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "email": "Clotilde_Trantow93@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "email": "Juston_Howe@yahoo.com",
+      "isStaff": false
+    }
+  ],
+  "patrons": [
+    {
+      "id": 1,
+      "usersId": 1,
+      "name": "Dee Quitzon"
+    },
+    {
+      "id": 2,
+      "usersId": 3,
+      "name": "Reed Hickle"
+    },
+    {
+      "id": 3,
+      "usersId": 4,
+      "name": "Joan Shields"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Diana Botsford",
+      "usersId": 3
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "patronsId": 1,
+      "contentId": 1
+    },
+    {
+      "id": 2,
+      "patronsId": 1,
+      "contentId": 3
+    },
+    {
+      "id": 3,
+      "patronsId": 2,
+      "contentId": 3
+    },
+    {
+      "id": 4,
+      "patronsId": 3,
+      "contentId": 1
+    },
+    {
+      "id": 5,
+      "patronsId": 3,
+      "contentId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "patronsId": 2,
+      "commentText": "I think this art piece is a forgery."
+    },
+    {
+      "id": 2,
+      "patronsId": 3,
+      "commentText": "Wow this is ugly."
+    },
+    {
+      "id": 3,
+      "patronsId": 2,
+      "commentText": "Imagine by the Beatles is my favorite song."
+    },
+    {
+      "id": 4,
+      "patronsId": 1,
+      "commentText": "Wow this is not that cool."
+    }
+  ],
+  "contentComments": [
+    {
+      "id": 1,
+      "commentsId": 1,
+      "contentId": 1
+    },
+    {
+      "id": 2,
+      "commentsId": 2,
+      "contentId": 1
+    },
+    {
+      "id": 3,
+      "commentsId": 3,
+      "contentId": 2
+    },
+    {
+      "id": 4,
+      "commentsId": 4,
+      "contentId": 4
+    }
+  ],
+  "contents": [
+    {
+      "id": 1,
+      "likes": 2,
+      "externalLink": "https://www.vangoghgallery.com/img/starry_night_full.jpg",
+      "contentType": "painting",
+      "title": "Starry Night",
+      "description": "Starry Night (September 1888, French: La Nuit étoilée), commonly known as Starry Night Over the Rhône, is one of Vincent van Gogh's paintings of Arles at night. It was painted on the bank of the Rhône that was only a one or two-minute walk from the Yellow House on the Place Lamartine, which Van Gogh was renting at the time. The night sky and the effects of light at night provided the subject for some of van Gogh's more famous paintings, including Café Terrace at Night (painted earlier the same month) and the June, 1889, canvas from Saint-Remy, The Starry Night."  ,  
+        "staffId": 1
+    },
+    {
+      "id": 2,
+      "likes": 1,
+      "externalLink": "https://i.guim.co.uk/img/media/66ddf001b55c65eed9635ced61a93ad275c6dafd/0_357_5414_3250/master/5414.jpg?width=465&quality=85&dpr=1&s=none",
+      "contentType": "event",
+      "title": "Beatles Sing Along",
+      "description": "The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band of all time[1] and were integral to the development of 1960s counterculture and popular music's recognition as an art form.[2] Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways; the band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. As pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.[3]",
+      "staffId": 1
+    },
+    {
+      "id": 3,
+      "likes": 2,
+      "externalLink": "https://uploads0.wikiart.org/00339/images/leonardo-da-vinci/mona-lisa-c-1503-1519.jpg",
+      "contentType": "painting",
+      "title": "The Mona Lisa",
+      "description": "The Isleworth Mona Lisa is an early sixteenth-century oil on canvas painting depicting the same subject as Leonardo da Vinci's Mona Lisa, though with the subject (Lisa del Giocondo) depicted as being a younger age.[1] The painting is thought to have been brought from Italy to England in the 1780s,[1] and came into public view in 1913 when the English connoisseur Hugh Blaker acquired it from a manor house in Somerset, where it was thought to have been hanging for over a century.[2] The painting would eventually adopt its unofficial name of Isleworth Mona Lisa from Blaker's studio being in Isleworth, West London.[3] Since the 1910s, experts in various fields, as well as the collectors who have acquired ownership of the painting, have asserted that the major elements of the painting are the work of Leonardo himself, as an earlier version of the Mona Lisa.[4]",
+      "staffId": 1
+    }
+  ]
+}

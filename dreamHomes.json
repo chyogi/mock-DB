@@ -6,28 +6,24 @@
       "lastName": "Paul",
       "email": "spaul11@yahoo.com"
     },
-
     {
       "id": 2,
       "firstName": "Caroline",
       "lastName": "Samson",
       "email": "samsonc01@yahoo.com"
     },
-
     {
       "id": 3,
       "firstName": "Riyana ",
       "lastName": "Hawkins",
       "email": "rhawkin@yahoo.com"
     },
-
     {
       "id": 3,
       "firstName": "Daniaya ",
       "lastName": "Trudou",
       "email": "daniyams11@yahoo.com"
     },
-
     {
       "id": 4,
       "firstName": "Tania ",
@@ -39,9 +35,13 @@
       "firstName": "Shiyam ",
       "lastName": "Nene",
       "email": "shiyamnene@yahoo.com"
+    },
+    {
+      "email": "yogich@yahoo.com",
+      "fullName": "yogi",
+      "id": 6
     }
   ],
-
   "customFloorPlan": [
     {
       "id": 1,
@@ -56,7 +56,6 @@
       "garage": 2,
       "price": 600000
     },
-
     {
       "id": 2,
       "userId": 2,
@@ -70,7 +69,6 @@
       "garage": 2,
       "price": 650000
     },
-
     {
       "id": 3,
       "userId": 1,
@@ -111,60 +109,55 @@
       "price": 650000
     }
   ],
-
   "savedFloorPlans": [
-    { 
-      "id": 1, 
-    "userId": 2,
-    "readyToGoFloorPlanId": 3
-     
-   },
+    {
+      "id": 1,
+      "userId": 2,
+      "readyToGoFloorPlanId": 3
+    },
     {
       "id": 2,
       "userId": 1,
       "readyToGoFloorPlanId": 3
     },
-     {
-       "id": 3,
-       "userId": 2,
-       "readyToGoFloorPlanId": 4
-     },
-      {
-        "id": 4,
-        "userId": 5,
-        "readyToGoFloorPlanId": 1
-      }
-
+    {
+      "id": 3,
+      "userId": 2,
+      "readyToGoFloorPlanId": 4
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "readyToGoFloorPlanId": 1
+    }
   ],
-
   "FloorPlanImages": [
     {
       "id": 1,
       "readyToGoFloorPlans": 1,
       "imageUrl": ""
     },
-     {
-       "id": 2,
-       "readyToGoFloorPlans": 2,
-       "imageUrl": ""
-     },
-      {
-        "id": 3,
-        "readyToGoFloorPlans": 3,
-        "imageUrl": ""
-      },
-       {
-         "id": 4,
-         "readyToGoFloorPlans": 4,
-         "imageUrl": ""
-       },
-        {
-          "id": 5,
-          "readyToGoFloorPlans": 5,
-          "imageUrl": ""
-        }
+    {
+      "id": 2,
+      "readyToGoFloorPlans": 2,
+      "imageUrl": ""
+    },
+    {
+      "id": 3,
+      "readyToGoFloorPlans": 3,
+      "imageUrl": ""
+    },
+    {
+      "id": 4,
+      "readyToGoFloorPlans": 4,
+      "imageUrl": ""
+    },
+    {
+      "id": 5,
+      "readyToGoFloorPlans": 5,
+      "imageUrl": ""
+    }
   ],
-
   "contactUs": [
     {
       "id": 1,
@@ -175,11 +168,10 @@
       "questions": ""
     }
   ],
-
   "readyToGoFloorPlans": [
     {
       "id": 1,
-      "name": "",
+      "name": "Adeline",
       "Type": "single family",
       "stories": 2,
       "sqFt": 2500,
@@ -191,7 +183,7 @@
     },
     {
       "id": 2,
-      "name": "",
+      "name": "Barristerr",
       "Type": "single family",
       "stories": 2,
       "sqFt": 2000,
@@ -203,7 +195,7 @@
     },
     {
       "id": 3,
-      "name": "",
+      "name": "Beltterra",
       "Type": "single family",
       "stories": 2,
       "sqFt": 2500,
@@ -215,7 +207,7 @@
     },
     {
       "id": 4,
-      "name": "",
+      "name": "Brookstone",
       "Type": "single family",
       "stories": 2,
       "sqFt": 2200,
@@ -227,7 +219,7 @@
     },
     {
       "id": 5,
-      "name": "",
+      "name": "Courtstone",
       "Type": "single family",
       "stories": 2,
       "sqFt": 2600,
@@ -239,7 +231,7 @@
     },
     {
       "id": 6,
-      "name": "",
+      "name": "Drestone",
       "Type": "single family",
       "stories": 2,
       "sqFt": 3000,
@@ -250,7 +242,6 @@
       "price": 650000
     }
   ],
-
   "reviews": [
     {
       "id": 1,
@@ -258,32 +249,29 @@
       "readyToGoFloorPlanId": 1,
       "review": ""
     },
-
-     {
+    {
       "id": 2,
       "userId": 1,
       "readyToGoFloorPlanId": 3,
       "review": ""
     },
-     {
+    {
       "id": 3,
       "userId": 3,
       "readyToGoFloorPlanId": 2,
       "review": ""
     },
-
-     {
+    {
       "id": 4,
       "userId": 3,
       "readyToGoFloorPlanId": 3,
       "review": ""
     },
-
-     {
+    {
       "id": 5,
       "userId": 1,
       "readyToGoFloorPlanId": 5,
       "review": ""
-     }
+    }
   ]
 }

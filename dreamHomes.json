@@ -172,74 +172,86 @@
     {
       "id": 1,
       "name": "Adeline",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 2500,
       "bedrooms": 4,
       "fullBaths": 3,
       "halfBaths": 1,
       "garage": 3,
-      "price": 550000
+      "price": 550000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     },
     {
       "id": 2,
       "name": "Barristerr",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 2000,
       "bedrooms": 2,
       "fullBaths": 2,
       "halfBaths": 2,
       "garage": 1,
-      "price": 450000
+      "price": 450000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     },
     {
       "id": 3,
       "name": "Beltterra",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 2500,
       "bedrooms": 4,
       "fullBaths": 2,
       "halfBaths": 2,
       "garage": 2,
-      "price": 550000
+      "price": 550000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     },
     {
       "id": 4,
       "name": "Brookstone",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 2200,
       "bedrooms": 3,
       "fullBaths": 2,
       "halfBaths": 2,
       "garage": 2,
-      "price": 525000
+      "price": 525000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     },
     {
       "id": 5,
       "name": "Courtstone",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 2600,
       "bedrooms": 5,
       "fullBaths": 2,
       "halfBaths": 2,
       "garage": 2,
-      "price": 570000
+      "price": 570000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     },
     {
       "id": 6,
       "name": "Drestone",
-      "Type": "single family",
+      "type": "single family",
       "stories": 2,
       "sqFt": 3000,
       "bedrooms": 5,
       "fullBaths": 3,
       "halfBaths": 2,
       "garage": 2,
-      "price": 650000
+      "price": 650000,
+      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
+      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
     }
   ],
   "reviews": [

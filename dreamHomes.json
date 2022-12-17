@@ -42,70 +42,61 @@
       "id": 6
     }
   ],
-  "customFloorPlan": [
-    {
-      "id": 1,
-      "userId": 2,
-      "name": "",
-      "Type": "single family",
-      "stories": 2,
-      "sqFt": 2700,
-      "bedrooms": 4,
-      "fullBaths": 3,
-      "halfBaths": 1,
-      "garage": 2,
-      "price": 600000
-    },
+  "customFloorPlans": [
     {
       "id": 2,
       "userId": 2,
-      "name": "",
-      "Type": "single family",
+      "name": "Dream Villa",
+      "type": "singleFamily",
       "stories": 2,
       "sqFt": 2700,
       "bedrooms": 5,
       "fullBaths": 3,
       "halfBaths": 1,
       "garage": 2,
+      "isFav": false,
       "price": 650000
     },
     {
       "id": 3,
       "userId": 1,
       "name": "",
-      "Type": "single family",
+      "type": "singleFamily",
       "stories": 2,
       "sqFt": 1800,
       "bedrooms": 2,
       "fullBaths": 2,
       "halfBaths": 1,
       "garage": 1,
+      "isFav": false,
       "price": 300000
     },
     {
       "id": 4,
       "userId": 5,
       "name": "",
-      "Type": "single family",
+      "type": "singleFamily",
       "stories": 2,
       "sqFt": 2100,
       "bedrooms": 3,
       "fullBaths": 2,
       "halfBaths": 1,
       "garage": 1,
+      "isFav": false,
       "price": 390000
     },
     {
       "id": 5,
       "userId": 5,
       "name": "",
-      "Type": "single family",
+      "type": "singleFamily",
       "stories": 2,
       "sqFt": 3000,
       "bedrooms": 4,
       "fullBaths": 3,
       "halfBaths": 2,
       "garage": 3,
+      "isFav": false,
       "price": 650000
     }
   ],

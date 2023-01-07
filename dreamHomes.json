@@ -98,55 +98,346 @@
       "garage": 3,
       "isFav": false,
       "price": 650000
+    },
+    {
+      "userId": 2,
+      "name": "Test Home",
+      "type": "townHome",
+      "stories": "2",
+      "sqFt": "3000",
+      "bedrooms": "3",
+      "fullBaths": "3",
+      "halfBaths": "4",
+      "garage": "1",
+      "isFav": true,
+      "price": 100000,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "name": "Dream Home",
+      "type": "singleFamily",
+      "stories": "2",
+      "sqFt": "4000",
+      "bedrooms": "3",
+      "fullBaths": "3",
+      "halfBaths": "2",
+      "garage": "2",
+      "price": 100000,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "name": "Dream Home",
+      "type": "singleFamily",
+      "stories": "2",
+      "sqFt": "3000",
+      "bedrooms": "3",
+      "fullBaths": "2",
+      "halfBaths": "2",
+      "garage": "1",
+      "isFav": true,
+      "price": 100000,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "name": "Town Home",
+      "type": "townHome",
+      "stories": "1",
+      "sqFt": "2000",
+      "bedrooms": "2",
+      "fullBaths": "2",
+      "halfBaths": "2",
+      "garage": "1",
+      "isFav": true,
+      "price": 100000,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "name": "Dream Home2",
+      "type": "dulpex",
+      "stories": "3",
+      "sqFt": "5000",
+      "bedrooms": "3",
+      "fullBaths": "3",
+      "halfBaths": "3",
+      "garage": "2",
+      "isFav": true,
+      "price": 450000,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "name": "fav home",
+      "type": "townHome",
+      "stories": "2",
+      "sqFt": "3200",
+      "bedrooms": "4",
+      "fullBaths": "2",
+      "halfBaths": "2",
+      "garage": "2",
+      "isFav": true,
+      "price": 550000,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "name": "home2",
+      "type": "singleFamily",
+      "stories": "1",
+      "sqFt": "2000",
+      "bedrooms": "3",
+      "fullBaths": "2",
+      "halfBaths": "2",
+      "garage": "1",
+      "isFav": false,
+      "price": 450000,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "name": "home 4",
+      "type": "townHome",
+      "stories": "1",
+      "sqFt": "2000",
+      "bedrooms": "2",
+      "fullBaths": "2",
+      "halfBaths": "2",
+      "garage": "1",
+      "isFav": true,
+      "price": 250000,
+      "id": 13
     }
   ],
   "savedFloorPlans": [
-    {
-      "id": 1,
-      "userId": 2,
-      "readyToGoFloorPlanId": 3
-    },
     {
       "id": 2,
       "userId": 1,
       "readyToGoFloorPlanId": 3
     },
     {
-      "id": 3,
-      "userId": 2,
-      "readyToGoFloorPlanId": 4
-    },
-    {
       "id": 4,
       "userId": 5,
       "readyToGoFloorPlanId": 1
+    },
+    {
+      "userId": 2,
+      "readyToGoFloorPlanId": 2,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "readyToGoFloorPlanId": 3,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "readyToGoFloorPlanId": 2,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "readyToGoFloorPlanId": 6,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "readyToGoFloorPlanId": 2,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "readyToGoFloorPlanId": 1,
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "readyToGoFloorPlanId": 4,
+      "id": 15
     }
   ],
   "FloorPlanImages": [
     {
       "id": 1,
-      "readyToGoFloorPlans": 1,
-      "imageUrl": ""
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/umjjl0g7a8obgu2a12bcliotj8/w800x533.jpg?v=2",
+      "title": "PLAN 1064-234"
     },
     {
       "id": 2,
-      "readyToGoFloorPlans": 2,
-      "imageUrl": ""
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/umjjl0g7a8obgu2a12bcliotj8/w800x533.jpg?v=2",
+      "title": "PLAN 1064-234"
     },
     {
       "id": 3,
-      "readyToGoFloorPlans": 3,
-      "imageUrl": ""
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/kulvhumrr2fd1074jbq51bvsvu/w800x533.jpg?v=2",
+      "title": "PLAN 1064-234"
     },
     {
       "id": 4,
-      "readyToGoFloorPlans": 4,
-      "imageUrl": ""
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/8n40ip7boqrdsj9v0hg7pf1ch7/w800x533.jpg?v=2",
+      "title": "PLAN 1064-234"
     },
     {
       "id": 5,
-      "readyToGoFloorPlans": 5,
-      "imageUrl": ""
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/44q3t0fq2pk5l8uh4o4e950dna/w600.jpg?v=2",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 6,
+      "readyToGoFloorPlanId": 1,
+      "img": "https://cdn.houseplansservices.com/product/rg79r3mj0sr60q20a9aumi568m/w600.jpg?v=2",
+      "title": "Floor Plan - Lower Floor"
+    },
+    {
+      "id": 7,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/c8u3q7fg6d7n5f5e43mejj9e7v/w800x533.jpg?v=2",
+      "title": "PLAN 1064-233"
+    },
+    {
+      "id": 8,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/7tfesnk6te0r6o6ar0uau2v7m2/w800x533.jpg?v=2",
+      "title": "PLAN 1064-233"
+    },
+    {
+      "id": 9,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/9sbri8fo85mi46ude6sj2rvsab/w800x533.jpg?v=2",
+      "title": "PLAN 1064-233"
+    },
+    {
+      "id": 10,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/j34npflbu4a11rda5bimomsdjq/w800x533.jpg?v=2",
+      "title": "PLAN 1064-233"
+    },
+    {
+      "id": 11,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/smdqijhh712p7l7160fsge7u56/w600.jpg?v=2",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 12,
+      "readyToGoFloorPlanId": 2,
+      "img": "https://cdn.houseplansservices.com/product/g8g638ttl4lvmph8rnskvhjhal/w600.jpg?v=2",
+      "title": "Floor Plan - Upper Floor"
+    },
+    {
+      "id": 13,
+      "readyToGoFloorPlanId": 3,
+      "img": "https://cdn.houseplansservices.com/product/3te5rjqa928tairou2ju8vcfmj/w800x533.jpg?v=2",
+      "title": "PLAN 1064-232"
+    },
+    {
+      "id": 14,
+      "readyToGoFloorPlanId": 3,
+      "img": "https://cdn.houseplansservices.com/product/vbbgsv3rsveagaqv7d2netnq1e/w800x533.jpg?v=2",
+      "title": "PLAN 1064-232"
+    },
+    {
+      "id": 15,
+      "readyToGoFloorPlanId": 3,
+      "img": "https://cdn.houseplansservices.com/product/u7iosg24351m4jkurm85173nih/w800x533.jpg?v=2",
+      "title": "PLAN 1064-232"
+    },
+    {
+      "id": 16,
+      "readyToGoFloorPlanId": 3,
+      "img": "https://cdn.houseplansservices.com/product/gomdrdeto1s7aqisjtsve8da0i/w800x533.jpg?v=2",
+      "title": "PLAN 1064-2323"
+    },
+    {
+      "id": 17,
+      "readyToGoFloorPlanId": 3,
+      "img": "https://cdn.houseplansservices.com/product/u0lorbqq9999553tnp5rtah5c9/w600.jpg?v=2",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 18,
+      "readyToGoFloorPlanId": 4,
+      "img": "https://cdn.houseplansservices.com/product/aqfmpdnjup532o3t3qpp7a51ss/w800x533.jpg?v=2",
+      "title": "PLAN 929-1142"
+    },
+    {
+      "id": 19,
+      "readyToGoFloorPlanId": 4,
+      "img": "https://cdn.houseplansservices.com/product/b1p9q5o36p37qln151teb5suie/w800x533.jpg?v=2",
+      "title": "PLAN 929-1142"
+    },
+    {
+      "id": 20,
+      "readyToGoFloorPlanId": 4,
+      "img": "https://cdn.houseplansservices.com/product/8ml88gctolt8is75529g6c5c4/w800x533.jpg?v=2",
+      "title": "PLAN 929-1142"
+    },
+    {
+      "id": 21,
+      "readyToGoFloorPlanId": 4,
+      "img": "https://cdn.houseplansservices.com/product/ghvocai1ebpvdscj6j2jsh5pnf/w600.jpg?v=2",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 22,
+      "readyToGoFloorPlanId": 5,
+      "img": "https://cdn.houseplansservices.com/product/i9dk59igvlcni8ua4a6tmh50q1/w800x533.jpg?v=4",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 23,
+      "readyToGoFloorPlanId": 5,
+      "img": "https://cdn.houseplansservices.com/product/jka0juq8v48flpihhr81hn904b/w800x533.jpg?v=3",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 24,
+      "readyToGoFloorPlanId": 5,
+      "img": "https://cdn.houseplansservices.com/product/lca2a6i5b12a74f4n6b332mt0c/w800x533.jpg?v=5",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 25,
+      "readyToGoFloorPlanId": 5,
+      "img": "https://cdn.houseplansservices.com/product/aran6lf7310v19h6eufj29fbmg/w600.jpg?v=4",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 26,
+      "readyToGoFloorPlanId": 6,
+      "img": "https://cdn.houseplansservices.com/product/vc3b4lqo3k1qdggh7i16tgp3bm/w800x533.jpg?v=18",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 27,
+      "readyToGoFloorPlanId": 6,
+      "img": "https://cdn.houseplansservices.com/product/1lb121ufvgl49t9cher5kjtapr/w800x533.jpg?v=18",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 28,
+      "readyToGoFloorPlanId": 6,
+      "img": "https://cdn.houseplansservices.com/product/n93ian34j134bcqu4k8a1m0avf/w800x533.jpg?v=18",
+      "title": "PLAN 1074-50"
+    },
+    {
+      "id": 29,
+      "readyToGoFloorPlanId": 6,
+      "img": "https://cdn.houseplansservices.com/product/os8ui5p8tn77rkfc8lfn2i8cq9/w800x533.jpg?v=18",
+      "title": "Floor Plan - Main Floor"
+    },
+    {
+      "id": 30,
+      "readyToGoFloorPlanId": 6,
+      "img": "https://cdn.houseplansservices.com/product/5hs7ee6j9ql6840j773cm2q7us/w600.jpg?v=17",
+      "title": "Floor Plan - Main Floor"
     }
   ],
   "contactUs": [
@@ -171,8 +462,8 @@
       "halfBaths": 1,
       "garage": 3,
       "price": 550000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "See yourself in the Roseland, a luxurious one-level ranch design. This three-bed, two-bath plan boasts an open living area with easy access from the family room to the kitchen with plenty of storage. Residents gravitate towards the sizable bedrooms, especially the private owner's suite that leads to a master bath and walk-in closet. Additional highlights include a large two-car garage, covered rear deck, and family foyer.",
+      "titleImage": "https://cdn.houseplansservices.com/product/umjjl0g7a8obgu2a12bcliotj8/w800x533.jpg?v=2"
     },
     {
       "id": 2,
@@ -185,8 +476,8 @@
       "halfBaths": 2,
       "garage": 1,
       "price": 450000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "A gorgeous new plan with plenty of options debuts in Nashville in the shape of the Barrister. This one or two-level beauty boasts multiple main-level bedrooms including an expansive owner's suite and bath, nestled privately adjacent to the open living triangle. A versatile study, outdoor living space, and optional gameroom in the second level makes this design so inviting.",
+      "titleImage": "https://cdn.houseplansservices.com/product/c8u3q7fg6d7n5f5e43mejj9e7v/w800x533.jpg?v=2"
     },
     {
       "id": 3,
@@ -199,8 +490,8 @@
       "halfBaths": 2,
       "garage": 2,
       "price": 550000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "Brick and stone combine to form a truly stunning home in the Belterra. Large, colonial-style windows and a grand entryway set the stage for the luxurious features waiting inside. Entertaining affluents will appreciate how easily dinner parties come together with a custom working pantry for food prep, a beautiful wine bar to showcase your unique tastes, and a deluxe gourmet kitchen that would make even a celebrity chef jealous. Busy families will appreciate the family ready room, which provides ample laundry space, storage for coats, books, and backpacks, and even a custom dog wash. And no matter your lifestyle, you'll love showing off the vaulted, exposed beam ceiling in the family room, the spa-like bath and enormous walk-in closet in the owner's suite, and the built-in wet bar in the upstairs game room. Don't miss this magnificent estate-style plan!",
+      "titleImage": "https://cdn.houseplansservices.com/product/3te5rjqa928tairou2ju8vcfmj/w800x533.jpg?v=2"
     },
     {
       "id": 4,
@@ -213,8 +504,8 @@
       "halfBaths": 2,
       "garage": 2,
       "price": 525000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "This home was designed with the lifestyle of today's families in mind. This open floor plan is centered around the Drees signature living triangle, a conjoining space that features a bright and airy kitchen, family room and dining area. This open area makes this design the perfect match for families and entertainers alike! On the first floor, you will find other desirable design features, including a family foyer that provides the ultimate organization for your daily drop zone, a covered porch with optional fireplace, and private study. Upstairs boasts three additional bedrooms and a luxurious owner's suite with an option to add an owner's deck.",
+      "titleImage": "https://cdn.houseplansservices.com/product/aqfmpdnjup532o3t3qpp7a51ss/w800x533.jpg?v=2"
     },
     {
       "id": 5,
@@ -227,8 +518,8 @@
       "halfBaths": 2,
       "garage": 2,
       "price": 570000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "The Elmsdale is truly one-of-a-kind! At almost 5,000 square feet, you can get lost in the luxurious amenities at each turn. French doors lead to a gorgeous foyer where a dining room, wine bar, butler's pantry, and open living area can be found. An expansive family ready room off the carriage garage provides additional storage, a convenient island, and even optional features such as a dog washing station and bench with cubbies. Upgradable features include a covered porch extension with fireplace and cedar beamed ceilings throughout the main level. Guests will love the privacy of the second-level living quarters, with three additional bedrooms, three bathrooms, and a large gameroom.",
+      "titleImage": "https://cdn.houseplansservices.com/product/i9dk59igvlcni8ua4a6tmh50q1/w800x533.jpg?v=4"
     },
     {
       "id": 6,
@@ -241,8 +532,8 @@
       "halfBaths": 2,
       "garage": 2,
       "price": 650000,
-      "description": "The Graceland, another great addition to the Drees Universal Design lineup, boasts two stories of luxurious spaces and features. A convenient main-level owner's suite, first-floor laundry and a covered porch leads to a versatile gameroom, multiple additional bedrooms and some unfinished storage space.",
-      "titleImage": "https://cdn.houseplansservices.com/product/uf7ocaf1rkdrqq1k255n2creci/w1024.jpg?v=11"
+      "description": "Here's a home that focuses in on the amenities that will really help a busy family: a huge family ready room, 5 bedrooms with optional independent living suite, and a kitchen with enough counter space for many hands to help prepare dinner. The owner's suite is easy to reach on this level, inviting homeowners to unwind in its spacious bathroom. The hearth room and family room both include fireplaces and a beautiful view of the outdoor living area, this becomes an excellent indoor-outdoor entertaining space. The extra carriage garage provides room for tools and extra storage.",
+      "titleImage": "https://cdn.houseplansservices.com/product/vc3b4lqo3k1qdggh7i16tgp3bm/w800x533.jpg?v=18"
     }
   ],
   "reviews": [
